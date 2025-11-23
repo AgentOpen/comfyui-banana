@@ -2,7 +2,7 @@
 
 # Comfyui-Banana - ComfyUI Gemini Image Generator
 
-<img src="https://youke1.picui.cn/s1/2025/11/12/69140968ed33b.jpg" width="200" alt="Banana Logo"/>
+<img src="https://framerusercontent.com/images/0BcAr9INx6VHF0VtAXa30RHfqPo.png" alt="Banana Logo"/>
 
 > 为 ComfyUI 提供 Nano Banana 图像生成能力的自定义节点
 
@@ -192,7 +192,7 @@ comfyui-banana-li/
 ├── README.md                      # 本文档
 └── LICENSE                        # MIT 开源协议
 ```
-111
+
 ### 依赖库
 
 - PyTorch
@@ -252,15 +252,11 @@ comfyui-banana-li/
 - 所有贡献者和使用者
 
 
-
-
 ---
 
 <div align="center">
 
 **⭐ 如果这个项目对你有帮助,请给个 Star!**
-
-定制 ❤️ by [心宝](https://space.bilibili.com/470042957)
 
 </div>
 "# comfyui-banana" 
