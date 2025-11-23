@@ -1,15 +1,10 @@
 <div align="center">
 
-# 心宝❤Banana - ComfyUI Gemini Image Generator
+# Comfyui-Banana - ComfyUI Gemini Image Generator
 
 <img src="https://youke1.picui.cn/s1/2025/11/12/69140968ed33b.jpg" width="200" alt="Banana Logo"/>
 
 > 为 ComfyUI 提供 Nano Banana 图像生成能力的自定义节点
-
-[![GitHub](https://img.shields.io/badge/GitHub-comfyui--banana--li-blue)](https://github.com/98624017/comfyui-banana-li)
-[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)
-[![ComfyUI](https://img.shields.io/badge/ComfyUI-Custom_Node-orange)](https://github.com/comfyanonymous/ComfyUI)
-[![Bilibili](https://img.shields.io/badge/Bilibili-@李心宝爱玩Ai-ff69b4)](https://space.bilibili.com/470042957)
 
 </div>
 
@@ -21,28 +16,7 @@ Banana 是一个强大的 ComfyUI 自定义节点,集成了 Google NanoBanana �
 
 当然，如果你需要更精细化、针对性更强的解决方案，我也提供付费的专属工作流。期待能和更多志同道合的设计人、电商人、AI实践者们交个朋友，一起把 AI 设计玩明白！
 
-### <img src="https://img.shields.io/badge/飞书-00D6B9?logo=lark&logoColor=white" align="center" style="vertical-align: middle;"> 免费资料与专属工作流介绍
 
-📂 [点击访问飞书文档](https://lcni4wauvbvx.feishu.cn/docx/BODPdxQ51ontbzxbq7tcUvlsnMd) - 获取免费资料及专属工作流详情
-
-
-
-## 📺 视频教程
-
-访问我的 [B站主页](https://space.bilibili.com/470042957) 观看详细的使用教程和案例演示!
-
-### 部分视频
-
-- <img src="https://img.shields.io/badge/Bilibili-ff69b4?logo=bilibili&logoColor=white" align="center" style="vertical-align: middle;"> [香蕉100%不偏移技巧,效率提升N倍](https://www.bilibili.com/video/BV1ir1cBVEeA)
-- <img src="https://img.shields.io/badge/Bilibili-ff69b4?logo=bilibili&logoColor=white" align="center" style="vertical-align: middle;"> [心宝顶级放大系列-03人像类放大](https://www.bilibili.com/video/BV1J7yXBoEq6)
-- <img src="https://img.shields.io/badge/Bilibili-ff69b4?logo=bilibili&logoColor=white" align="center" style="vertical-align: middle;"> [心宝顶级放大05-100%修手修脚](https://www.bilibili.com/video/BV1LSnZzoERc)
-- <img src="https://img.shields.io/badge/Bilibili-ff69b4?logo=bilibili&logoColor=white" align="center" style="vertical-align: middle;"> [4K透溶V2——纠正背景透视,一键换背景、融合、打光](https://www.bilibili.com/video/BV1mhaazPE13)
-
-## 📮 联系方式
-
-- **GitHub Issues**: [提交问题和建议](https://github.com/98624017/comfyui-banana-li/issues)
-- **Bilibili**: [@心宝](https://space.bilibili.com/470042957) - 视频教程和更新动态
-- **获取公开资料及API 购买**: <img src="https://img.shields.io/badge/WeChat-07C160?logo=wechat&logoColor=white" align="center" style="vertical-align: middle;"> Li_18727107073
 
 ## ✨ 功能特性
 
@@ -67,7 +41,7 @@ Banana 是一个强大的 ComfyUI 自定义节点,集成了 Google NanoBanana �
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/98624017/comfyui-banana-li.git comfyui-banana-li
+git clone https://github.com/AgentOpen/comfyui-banana.git comfyui-banana-li
 cd comfyui-banana-li
 ```
 
@@ -101,25 +75,23 @@ max_workers = 8
 
 你可以通过以下方式获取 NanoBanana API Key:
 
-- **API 购买**: 联系 Li_18727107073 购买 API Key
-
 
 ## 📝 使用方法
 
-1. 在 ComfyUI 中添加 "心宝❤Banana" 节点
+1. 在 ComfyUI 中添加 "Banana" 节点
 2. 配置节点参数(见下方参数说明)
 3. 连接其他节点并运行工作流
 
 ### 基础示例
 
 ```
-文本提示词 → 心宝❤Banana → 预览图像 → 保存图像
+文本提示词 → Banana → 预览图像 → 保存图像
 ```
 
 ### 图生图示例
 
 ```
-加载图像 → 心宝❤Banana → 预览图像
+加载图像 → Banana → 预览图像
          ↗  (image_1 输入)
 文本提示词
 ```
