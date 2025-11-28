@@ -78,3 +78,8 @@ else:
 # ComfyUI需要的变量
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS', '__version__']
 WEB_DIRECTORY = "./web"
+
+# 输出模块信息
+print("✅ [ComfyUI资源网] 插件加载成功")
+print("📍 节点名称: base64转图片")
+print("📁 节点分类: base64工具")
