@@ -1,0 +1,47 @@
+{
+  "131": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "172",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "132": {
+    "inputs": {
+      "image": "81520e70-324c-4e52-9d2a-4ded65269f84.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "加载图像"
+    }
+  },
+  "172": {
+    "inputs": {
+      "prompt": "Peace and love",
+      "api_key": "请填写你的API key",
+      "api_base_url": "https://aigc.oagi.com.cn",
+      "model_type": "gemini-3.1-flash-image-preview",
+      "batch_size": 1,
+      "aspect_ratio": "Auto",
+      "seed": -1,
+      "top_p": 0.9,
+      "imageSize": "2K",
+      "超时秒数": 0,
+      "绕过代理": true,
+      "image_1": [
+        "132",
+        0
+      ]
+    },
+    "class_type": "Comfyui_BananaImageNode",
+    "_meta": {
+      "title": "Banana-API-3"
+    }
+  }
+}
