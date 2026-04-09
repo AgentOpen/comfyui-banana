@@ -88,7 +88,7 @@ keepalive_timeout = 30
 |------|------|--------|------|
 | **prompt** | STRING | "Peace and love" | 文本提示词，支持多行输入 |
 | **api_key** | STRING | "" | Gemini API Key（留空则从配置文件读取） |
-| **model_type** | SELECT | gemini-2.5-flash-image | 固定选项：gemini-2.5-flash-image / gemini-3-pro-image-preview |
+| **model_type** | SELECT | gemini-3.1-flash-image-preview | 固定选项：gemini-3.1-flash-image-preview、gemini-3-pro-image-preview、gemini-2.5-flash-image |
 | **batch_size** | INT | 1 | 批量生成数量（1-8） |
 | **aspect_ratio** | STRING | Auto | 宽高比（Auto/1:1/9:16/16:9/21:9/2:3/3:2/3:4/4:3/4:5/5:4） |
 
